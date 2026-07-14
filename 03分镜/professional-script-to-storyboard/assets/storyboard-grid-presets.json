@@ -1,0 +1,5 @@
+{
+  "vertical-6": {"page_size": [1800, 2400], "cols": 2, "rows": 3, "margin": 48, "gap": 24, "title_h": 90},
+  "classic-6": {"page_size": [2400, 1800], "cols": 3, "rows": 2, "margin": 42, "gap": 22, "title_h": 82},
+  "director-5": {"page_size": [2400, 1500], "cols": 3, "rows": 2, "margin": 36, "gap": 18, "title_h": 76}
+}

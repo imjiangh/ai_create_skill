@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频提示词编排"
+  short_description: "把锁定分镜、资产和连续性约束转换成可直接执行的视频提示词包"
+  default_prompt: "Use $video-prompt-pipeline to convert the locked storyboard and assets into production-ready video prompts."

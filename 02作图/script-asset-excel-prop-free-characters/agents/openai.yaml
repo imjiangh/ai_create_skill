@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧本资产 Excel（人物无道具）"
+  short_description: "生成人物无道具四表清单，VFX完整遵循V1.2信息板规范"
+  default_prompt: "Use $script-asset-excel-prop-free-characters to extract a four-sheet asset workbook, keep character images prop-free, separate physical props from VFX, count visible production shots, and apply the complete VFX V1.2 system, prompt, and fixed information-board output standard to every VFX asset."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "专业剧本转分镜"
+  short_description: "将剧本转成兼具快节奏切分、动态摄影与连续性的专业分镜"
+  default_prompt: "使用 $professional-script-to-storyboard 分析剧本，选择合适节奏风格，控制镜头预算与节奏贡献，并生成可拍摄、可剪辑、可供 AI 视频执行的专业分镜。"

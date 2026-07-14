@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "PROJECT_ID",
+    "title": "PROJECT_TITLE",
+    "format": "",
+    "target_platform": "",
+    "target_duration": "",
+    "aspect_ratio": "",
+    "authority": "LOCKED"
+  },
+  "current_stage": "S1_SCRIPT",
+  "stages": {
+    "S1_SCRIPT": {"status": "not_started", "revision": 0},
+    "S2_ASSETS": {"status": "not_started", "revision": 0},
+    "S3_STORYBOARD": {"status": "not_started", "revision": 0},
+    "S4_VIDEO_PROMPTS": {"status": "not_started", "revision": 0}
+  },
+  "artifacts": {
+    "P01": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "S01": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "S02": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "A01": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "A02": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "A03": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "A04": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "A05": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "B01": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "B02": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "B03": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "V01": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "V02": {"status": "missing", "version": "0.0", "path": "", "note": ""},
+    "V03": {"status": "missing", "version": "0.0", "path": "", "note": ""}
+  },
+  "issues": [],
+  "decisions": [],
+  "change_log": []
+}

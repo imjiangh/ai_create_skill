@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧本开发编排"
+  short_description: "统一编排创意建档、剧本写作、节奏优化、会诊和台词精修流程"
+  default_prompt: "Use $script-development-pipeline to develop and lock this screenplay for downstream production."

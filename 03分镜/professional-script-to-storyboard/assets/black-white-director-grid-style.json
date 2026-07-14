@@ -1,0 +1,57 @@
+{
+  "id": "black-white-director-5",
+  "name": "黑白导演五格宫格",
+  "canvas": {
+    "aspect_ratio": "8:5",
+    "background": "warm-white",
+    "layout": "top-3-bottom-2-legend",
+    "panel_border": "solid-black",
+    "gutter": "narrow"
+  },
+  "image_style": {
+    "medium": "graphite-pencil-gray-marker",
+    "color": "monochrome",
+    "detail": "rough-director-storyboard",
+    "priority": ["blocking", "eyeline", "decisive-action", "camera-logic"]
+  },
+  "production_lock": {
+    "default_mode": "ROUGH-GRID",
+    "rough_source_unit": "one-image-per-page",
+    "precision_source_unit": "one-image-per-cut",
+    "annotation_composition": "deterministic-only",
+    "whole-page-image-generation": "allowed-for-rough-grid-without-text",
+    "style_inheritance": "locked-until-user-explicitly-changes",
+    "reference_match_required": true
+  },
+  "panel_header": {
+    "fields": ["stable_shot_id", "start_end_seconds"],
+    "format": "S01-B01-C01  0.0–3.0s",
+    "numbering": "beat-local-cut-number-from-board",
+    "global_sequential_display_id": "forbidden",
+    "position": "above-panel-left",
+    "weight": "bold"
+  },
+  "arrows": {
+    "character_movement": "solid-black",
+    "camera_movement": "dashed-black",
+    "arc_motion": "solid-curved",
+    "tilt": "dashed-curved"
+  },
+  "legend": {
+    "position": "bottom-right",
+    "items": ["Character Movement", "Camera Movement", "Arc Motion", "Tilt"]
+  },
+  "forbidden": [
+    "paragraph annotations",
+    "axis text",
+    "dialogue text",
+    "prop text",
+    "transition text",
+    "caption strips",
+    "generated labels inside image model output",
+    "unlabeled multi-panel draft as final output",
+    "showing intermediate single-shot sources in rough-grid mode",
+    "per-cut generation as the default for rough reference",
+    "layout substitution after user confirmation"
+  ]
+}

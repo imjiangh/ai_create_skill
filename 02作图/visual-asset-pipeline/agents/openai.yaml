@@ -1,0 +1,4 @@
+interface:
+  display_name: "视觉资产编排"
+  short_description: "从锁定剧本提取并统一生成、审核和锁定人物场景道具特效资产"
+  default_prompt: "Use $visual-asset-pipeline to extract, generate, review, and lock the visual assets for this script."
